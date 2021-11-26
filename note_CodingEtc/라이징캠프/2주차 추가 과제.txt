@@ -1,0 +1,7 @@
+mysql -uroot -p
+
+김민걸오후 3:33
+
+show databases
+create database {asdf}
+use {dasl}

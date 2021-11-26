@@ -1,0 +1,8 @@
+<디버깅하기>
+1. js
+- 크롬/개발자도구/console
+- 빨간색으로 어쩌구저쩌구 써져있음
+
+2. php
+- open file/wampstack-8.0.2-1/apache2/logs/error.log
+- 가장 아랫부분이 가장 최근 error 표시해주므로 이거 보면 됨

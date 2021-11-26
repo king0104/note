@@ -1,0 +1,21 @@
+- 오실로스코프 // 전원 공급기 // 인두기 -> 대여 가능 (주변에 인연 끊고 싶은 여자애 번호 1개.)
+
+- Naver Cafe 당근이의 AVR 카페 가입 // 전자공작 // 가입
+
+1. C 언어  - Visual Studio 이용해서 공부
+   . For 문 // Point // if문 // while문 // Switch case // typedef // enum
+
+2. Atmega128 구매 - eleparts // Device mart (5만원 정도) - 잠시 대기 해보기 - 집에 가서 찾아봄.
+
+3. Regulator 회로 구성 확인 (7805 사용) - 납땜 이용해서 테스트 진행
+
+4. 노트북을 이용해서 Code Vision 프로그램 설치
+
+5. Device Mart - pitch 2.54mm 공기판 적당한거 - 2천원 짜리 몇개 사서 회로 꾸며보기
+   . -> Atmega128 i/o와 led 간 동작 회로 구성
+
+6. Codevision으로 테스트 하면서 LED 깜박이게 해보기.
+
+-------------------
+2.8 현재
+1. 전자공작 들어가서 기초편 완독하기 + 워드에 작성하면서 보기

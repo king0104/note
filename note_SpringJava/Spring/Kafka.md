@@ -1,12 +1,44 @@
-## 윈도우에 카프카 설치
+## 카프카 동작 방식
+
+1. Zookeeper 와 Kafka서버를 띄우고
+
+2. 서버에 Topic을 생성
+
+3. Consumer로 생성한 Topic을 구독
+
+4. Producer로 생성한 Topic에 메세지 전달
+
+5. Consumer는 구독중이던 Topic에 메세지가 있는 걸 확인하고 읽어서 출력한다.
+
+
+
+출처: https://debaeloper.tistory.com/24 
+
+
+
+---
+
+#### 카프카 실행하기
+
+.\zookeeper-server-start.bat ..\..\config\zookeeper.properties
+
+.\kafka-server-start.bat ..\..\config\server.properties
+
+----
+
+
+
+## 1. 윈도우에 카프카 설치
 
 - 블로그 : https://oingdaddy.tistory.com/274
 
 
 
+질문 -  wsl에 카프카 설치하고 연동 가능?
 
 
-## springboot with kafka
+
+## 2. 설치한 카프카와 스프링부트 연동
 
 블로그 참조 :
 

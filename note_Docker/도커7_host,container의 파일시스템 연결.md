@@ -17,7 +17,18 @@
 
 
 
+- 코드
 
+  - ```shell
+    docker run -p 8888:80 -v C:\docker_htdocs\:/usr/local/apache2/htdocs/ httpd
+    ```
+
+  - -p : host포트 - container 포트 연결하는 옵션
+
+  - -v : host의 파일시스템과 container 파일시스템 연결하는 옵션
+
+    - 윈도우 기준 위와 같이 경로주기. 리눅스는 경로 지정 시 전부 다 /를 사용
+    - 경로와 실행시킬 image 사이에 띄어쓰기 반드시 있어야!!(안그러면 argument error 뜬다)
 
 
 

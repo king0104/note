@@ -32,3 +32,8 @@
 
 - 엔티티의 필드를, 테이블의 필드와 매핑
 
+
+
+## Spring Security 관련
+
+- @EnableWebSecurity : 스프링 빈으로 인식되도록 함

@@ -6,11 +6,11 @@
 
 
 
-### @JoinColumn
+### @JoinColumn(name = "db의 column name")
 
 - 외래키 매핑할 때 사용한다
 
-
+- 자바 코드 측 엔티티 필드를, 디비 측 컬럼에 매핑하기 위해 사용하는 것. 
 
 ### @Column
 

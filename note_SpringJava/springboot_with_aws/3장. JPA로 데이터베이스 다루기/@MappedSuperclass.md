@@ -1,0 +1,1 @@
+- JPA Entity 클래스들이 @MappedSuperclass가 붙은 클래스를 상속받으면, 해당 클래스의 필드가 JPA Entity 클래스의 필드로 인식된다.

@@ -8,6 +8,43 @@
 
 
 
+#### 엔티티 클래스를 생성하는 방식
+
+1. 생성자
+
+   - alt+insert로 생성자 만들기
+
+   - 사용 방법 : new
+
+   
+
+2. @builder
+
+   - alt + insert로 생성자 만들기 + @Builder 어노테이션 붙이기!!!
+
+     - ```java
+       @Builder
+       public Posts(String title, String content, String author) {
+           this.title = title;
+           this.content = content;
+           this.author = author;
+       }
+       ```
+
+   - 사용 방법 : 엔티티.builder() 사용
+
+     - ```java
+       postsRepository.save(Posts.builder()
+               .title(title)
+               .content(content)
+               .author("yoon@naver.com")
+               .build());
+       ```
+
+       
+
+
+
 #### 엔티티 클래스에 값을 채워 DB에 삽입하는 방식은?
 
 - 기본 : 생성자를 통해 최종 값을 채운 후, DB에 삽입

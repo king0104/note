@@ -51,5 +51,7 @@ https://kyounghwan01.github.io/blog/etc/git/git-reset-revert/#reset
 
 
 
+만화정리
 
+https://www.popit.kr/%EA%B0%9C%EB%B0%9C%EB%B0%94%EB%B3%B4%EB%93%A4-git-back-to-the-future/
 

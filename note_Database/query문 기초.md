@@ -17,7 +17,7 @@
 #### null 관련 이슈
 
 - null은 값으로 이용되지 않는다
-- null에서는 비교자 사용할 수 없음. 그래서 is null / is not null 으로만 null을 판단할 수 있다
+- null에서는 비교자 사용할 수 없음. 그래서 **is null / is not null** 으로만 null을 판단할 수 있다
 
 
 

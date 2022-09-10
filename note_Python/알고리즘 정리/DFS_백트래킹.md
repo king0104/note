@@ -54,10 +54,11 @@ max_t = -1
 
 def dfs(y, x, t):
     global max_t
-    
+    #########################################
+    # 이 부분이, 실제 dfs가 일을 하는 부분임
     if alphabet[plain[y][x]]:
         return
-
+		
     alphabet[plain[y][x]] = True
     max_t = max(max_t, t)
 
@@ -68,6 +69,8 @@ def dfs(y, x, t):
         
         if 0 <= ny < r and 0 <= nx < c not alphabet[plain[ny][nx]]:
             dfs(ny, nx, t + 1)
+    #########################################
+    
     
     #########################################################################
     # 코드 상에서 이 부분은, 현재 노드에서 시작하는 dfs가 다 종료되면 도착하는 곳이다.

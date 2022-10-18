@@ -1,0 +1,2 @@
+- Junit5 사용하면, 쓸 필요 없음
+- @SpringBootTest 가 대체한다

@@ -1,6 +1,6 @@
 ### dictionary
 
-- 순서가 없다
+- 순서 있음(iterable 객체임)
 - { "key" : value }
   - {"a" : 1, "b" : 3}
   - key 중복 불가능, value 중복 가능
@@ -10,8 +10,7 @@
 
 #### 관련 함수
 
-- keys(), values()
-- items()
+- keys(), values(), items()
 - get(), clear()
 - in 연산자 - key값으로 적용
 
@@ -33,6 +32,14 @@
 https://yaneodoo2.tistory.com/entry/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC-dictionary-%EC%9E%90%EB%A3%8C%ED%98%95-keys-values-get-in-items
 
 #### 정렬
+
+- sorted()를 사용해야 한다(리스트가 아니므로)
+
+- **dict.items()** 를 사용해야함
+
+  - dict로 정렬하면, key값만 정렬된 값이 리턴됨
+
+  
 
 ![image-20220724115804846](/Users/yoon/Library/Application Support/typora-user-images/image-20220724115804846.png)
 

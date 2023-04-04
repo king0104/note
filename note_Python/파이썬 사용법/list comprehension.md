@@ -27,3 +27,13 @@ print(nlist)
 # ['gnol', 'gnol']
 ```
 
+
+
+```python
+# 1. 결과 : [6,7,8,9]
+[i for i in range(10) if i>5] 
+
+# 2. 결과 : [False, False, False, False, False, False, True, True, True, True] # - 이것도 결국 list comprehension임을 명심하자!!
+[i>5 for i in range(10)]
+```
+

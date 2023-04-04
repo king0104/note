@@ -8,6 +8,11 @@
 
 
 
+- **key 값으로 튜플 가능**. 리스트 불가능
+  - key값을 **2차원**으로 설정하고 싶을 때 유용하다 (**좌표**를 키값으로 설정할 때)
+
+
+
 #### 관련 함수
 
 - keys(), values(), items()
@@ -44,3 +49,11 @@ https://yaneodoo2.tistory.com/entry/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B
 ![image-20220724115804846](/Users/yoon/Library/Application Support/typora-user-images/image-20220724115804846.png)
 
 https://rfriend.tistory.com/473
+
+
+
+
+
+[딕셔너리 기본 사용법 총정리 사이트]
+
+https://wikidocs.net/16#key-value
